@@ -1,0 +1,4 @@
+name: "PaperWeightTest"
+version: "1.0.0"
+main: "com.gmail.virustotalop.pwt.PaperWeightTestPlugin"
+api-version: "1.18"
