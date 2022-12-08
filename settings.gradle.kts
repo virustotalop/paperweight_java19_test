@@ -6,3 +6,5 @@ pluginManagement {
 }
 
 rootProject.name = "paperweight_java19_test"
+include("plugin")
+include("nms")
