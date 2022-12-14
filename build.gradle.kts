@@ -21,6 +21,8 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
 }
 
+//Work around for paper userdev on java 19
+//https://github.com/PaperMC/paperweight/issues/173
 tasks.withType<JavaCompile>().configureEach {
     javaCompiler.set(javaToolchains.compilerFor {
         languageVersion.set(JavaLanguageVersion.of(19))
